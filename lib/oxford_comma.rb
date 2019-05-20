@@ -1,6 +1,6 @@
 def oxford_comma(array)
   if array.length > 2
-    array.join(", ")
+    string = array.join(", ")
     #the oxford comma stuff  
   elsif array.length == 2 
     array.join(" and ")
