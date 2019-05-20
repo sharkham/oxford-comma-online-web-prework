@@ -1,7 +1,9 @@
 def oxford_comma(array)
-  if array.length = 1 
-    #do nothing 
+  if array.length > 2
+    #the oxford comma stuff  
   elsif array.length = 2 
     #convert into string and put an and between them 
   else 
+    #do nothing 
+  end 
 end
